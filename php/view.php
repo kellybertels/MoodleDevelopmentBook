@@ -29,6 +29,7 @@ $id = required_param('id', PARAM_INT);  // Course Module ID.
 $urlparams = array('id' => $id, 'name' => $name);
 
 $url = new moodle_url('/mod/php/view.php', $urlparams);
+
 list ($course, $cm) = get_course_and_cm_from_cmid($id, 'php');
 
 require_login($course, true, $cm);
