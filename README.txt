@@ -1,3 +1,7 @@
+This is an Exercise Tutorial that I (KellyBertels) did, following the Book Moodle Modules Development By Thomasz Muras.
+
+
+
 ACTIVITY MODULES
 ----------------
 
