@@ -40,6 +40,10 @@ class mod_php_mod_form extends moodleform_mod {
      *
      * @return void
      */
+     require_once(__DIR__ . '/../../config.php');
+     require_once($CFG->dirroot . '/local/php/classes/submission_form.php');
+
+
     public function definition() {
         $this->standard_coursemodule_elements();
         $this->add_action_buttons();
